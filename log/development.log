@@ -567,3 +567,130 @@ Started GET "/assets/jquery_ujs.self.js?body=1" for 217.172.9.126 at 2015-11-20 
 
 
 Started GET "/assets/application.self.js?body=1" for 217.172.9.126 at 2015-11-20 08:41:15 +0000
+
+
+Started GET "/movies" for 217.172.9.126 at 2015-11-20 09:21:15 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (1.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (58.7ms)
+Completed 200 OK in 360ms (Views: 327.9ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 217.172.9.126 at 2015-11-20 09:21:16 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 217.172.9.126 at 2015-11-20 09:21:16 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 217.172.9.126 at 2015-11-20 09:21:16 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 217.172.9.126 at 2015-11-20 09:21:16 +0000
+
+
+Started GET "/assets/application.self.css?body=1" for 62.19.48.127 at 2015-11-20 10:12:37 +0000
+
+
+Started GET "/movies" for 217.172.9.126 at 2015-11-20 12:23:48 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (52.7ms)
+Completed 200 OK in 342ms (Views: 318.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 217.172.9.126 at 2015-11-20 12:23:49 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:23:49 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:23:49 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:23:49 +0000
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 217.172.9.126 at 2015-11-20 12:23:57 +0000
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[35mMovie Load (1.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (20.2ms)
+Completed 200 OK in 46ms (Views: 42.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 217.172.9.126 at 2015-11-20 12:23:57 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:23:57 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:23:57 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:23:57 +0000
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 217.172.9.126 at 2015-11-20 12:53:47 +0000
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (83.7ms)
+Completed 200 OK in 392ms (Views: 359.1ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 217.172.9.126 at 2015-11-20 12:53:48 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:48 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:48 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:48 +0000
+
+
+Started GET "/movies" for 217.172.9.126 at 2015-11-20 12:53:52 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (14.4ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 217.172.9.126 at 2015-11-20 12:53:52 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:52 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:52 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:52 +0000
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BNC-17%5D=1&ratings%5BR%5D=1&commit=Refresh" for 217.172.9.126 at 2015-11-20 12:53:55 +0000
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "NC-17"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+Redirected to https://saas-tommyilpazzo.c9.io/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BNC-17%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 217.172.9.126 at 2015-11-20 12:53:55 +0000
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "NC-17"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+  [1m[36mMovie Load (2.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (50.4ms)
+Completed 200 OK in 75ms (Views: 70.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 217.172.9.126 at 2015-11-20 12:53:56 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:56 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:56 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 217.172.9.126 at 2015-11-20 12:53:56 +0000
